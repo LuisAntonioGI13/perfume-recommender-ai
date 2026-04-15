@@ -97,6 +97,8 @@ El sistema prioriza relevancia de uso, no solo similitud matemática.
 
 ---
 
+---
+
 ### 3. Feature Engineering
 
 #### Contexto de uso
@@ -140,6 +142,25 @@ Incluye:
 
 ---
 
+## Data Collection (Scraping)
+
+El dataset fue construido mediante extracción de datos desde plataformas especializadas en perfumería, principalmente Fragrantica, utilizando un enfoque de scraping controlado.
+
+Los scripts ubicados en la carpeta `scraping/` permiten automatizar la construcción del dataset:
+
+- `scrape_top_perfumes.py`: obtiene los perfumes más populares por marca y genera un listado de enlaces.
+- `scrape_perfume_details.py`: extrae información detallada de cada fragancia (descripción, notas, accords, etc.).
+
+### Flujo de ejecución
+
+1. Ejecutar `scrape_top_perfumes.py` para generar los enlaces.
+2. Ejecutar `scrape_perfume_details.py` para recolectar la información completa.
+3. Los datos se almacenan en formato estructurado (CSV) para su posterior procesamiento.
+
+Este proceso se realiza de forma controlada para garantizar la calidad de los datos y evitar sobrecargar las fuentes consultadas.
+
+---
+
 ## Tecnologías
 
 - Python  
@@ -147,7 +168,7 @@ Incluye:
 - Scikit-learn  
 - TF-IDF  
 - Cosine Similarity  
-- Selenium (scraping)  
+- Selenium  
 - Streamlit  
 - OpenAI API  
 
