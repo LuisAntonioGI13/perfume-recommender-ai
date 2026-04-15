@@ -15,7 +15,7 @@ Además, integra un asistente conversacional con IA que explica, recomienda y co
 ---
 
 ## Demo
-*(Próximamente: link de la app en Streamlit)*
+*https://lagiparfumeria-ai.streamlit.app/*
 
 ---
 
