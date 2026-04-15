@@ -152,7 +152,7 @@ Incluye:
 
 ## Estructura del proyecto
 
-
+```bash
 app/
 ├── app.py
 
@@ -170,7 +170,7 @@ scraping/
 assets/
 ├── logo.png
 
----
+```
 
 ## Cómo ejecutar
 
