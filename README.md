@@ -15,7 +15,10 @@ Además, integra un asistente conversacional con IA que explica, recomienda y co
 ---
 
 ## Demo
-*https://lagiparfumeria-ai.streamlit.app/*
+
+Aplicación desplegada en la nube con Streamlit Cloud, integrando un sistema de recomendación basado en NLP y un asistente conversacional con IA.
+
+[Ver aplicación en vivo](https://lagiparfumeria-ai.streamlit.app/)
 
 ---
 
